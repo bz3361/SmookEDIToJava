@@ -25,7 +25,7 @@
     -->
     <jb:bean beanId="header" class="example.model.Header" createOnElement="order">
         <jb:wiring property="customer" beanIdRef="customer" />
-        <jb:value property="order1Id" data="header/order-id" />
+        <jb:value property="order11Id" data="header/order-id" />
         <jb:value property="orderStatus" data="header/status-code" />
         <jb:value property="netAmount" data="header/net-amount" />
         <jb:value property="totalAmount" data="header/total-amount" />
