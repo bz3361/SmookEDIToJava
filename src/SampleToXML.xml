@@ -15,6 +15,7 @@
     -->
     <jb:bean beanId="order" class="example.model.Order" createOnElement="order">
         <jb:wiring property="header" beanIdRef="header" />
+        <jb:wiring property="header" beanIdRef="header" />
         <jb:wiring property="orderItems" beanIdRef="orderItemList" />
     </jb:bean>
  
